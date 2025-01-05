@@ -1,0 +1,67 @@
+export const deliveriesData = [
+  {
+    id: 1,
+    to: "Mumbai",
+    status: "In Transit",
+    startTime: "9:00 AM",
+    startPlace: "Delhi",
+    endTime: "1:00 PM",
+    endPlace: "Mumbai",
+    imageSource: require("@/assets/images/pakages/camera.jpg"),
+    driverName: "John Doe",
+    vehicle: "Van",
+    driverImage: "https://randomuser.me/api/portraits/men/45.jpg", // Fake driver image URL
+  },
+  {
+    id: 2,
+    to: "Hyderabad",
+    status: "Completed",
+    startTime: "11:00 AM",
+    startPlace: "Bengaluru",
+    endTime: "2:00 PM",
+    endPlace: "Hyderabad",
+    imageSource: require("@/assets/images/pakages/camera.jpg"),
+    driverName: "Jane Smith",
+    vehicle: "Truck",
+    driverImage: "https://randomuser.me/api/portraits/women/51.jpg", // Fake driver image URL
+  },
+  {
+    id: 3,
+    to: "Pune",
+    status: "In Delivery",
+    startTime: "8:30 AM",
+    startPlace: "Mumbai",
+    endTime: "12:30 PM",
+    endPlace: "Pune",
+    imageSource: require("@/assets/images/pakages/camera.jpg"),
+    driverName: "Ravi Kumar",
+    vehicle: "Bike",
+    driverImage: "https://randomuser.me/api/portraits/men/23.jpg", // Fake driver image URL
+  },
+  {
+    id: 4,
+    to: "Kochi",
+    status: "In Transit",
+    startTime: "1:00 PM",
+    startPlace: "Chennai",
+    endTime: "5:00 PM",
+    endPlace: "Kochi",
+    imageSource: require("@/assets/images/pakages/camera.jpg"),
+    driverName: "Ananya Sharma",
+    vehicle: "Van",
+    driverImage: "https://randomuser.me/api/portraits/women/9.jpg", // Fake driver image URL
+  },
+  {
+    id: 5,
+    to: "Goa",
+    status: "Completed",
+    startTime: "10:00 AM",
+    startPlace: "Pune",
+    endTime: "3:00 PM",
+    endPlace: "Goa",
+    imageSource: require("@/assets/images/pakages/camera.jpg"),
+    driverName: "Abhinav Singh",
+    vehicle: "Truck",
+    driverImage: "https://randomuser.me/api/portraits/men/12.jpg", // Fake driver image URL
+  },
+];
